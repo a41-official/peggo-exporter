@@ -13,7 +13,7 @@ import logging
 import sys
 
 log_level='INFO'
-set_polling_interval_seconds = "30" #"60"
+set_polling_interval_seconds = "300" #"60"
 
 """
 set_exporter_port - Local Port for HTTP server where metrics will be available
