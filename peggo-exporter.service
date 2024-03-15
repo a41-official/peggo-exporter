@@ -1,0 +1,14 @@
+[Unit]
+Description=peggo-exporter service
+After=network-online.target
+
+[Service]
+User=injective
+ExecStart=python3 $HOME/peggo-exporter/main.py 
+Restart=always
+RestartSec=3
+LimitNOFILE=4096
+KillSignal=SIGTERM
+
+[Install]
+WantedBy=multi-user.target
