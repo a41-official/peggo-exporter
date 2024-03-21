@@ -13,16 +13,16 @@ import logging
 import sys
 
 log_level='INFO'
-set_polling_interval_seconds = "300" #"60"
+set_polling_interval_seconds = "60"
 
 """
 set_exporter_port - Local Port for HTTP server where metrics will be available
 set_api_url - API End point for collecting exporter data. Coule be API URL or http(s)://IP:PORT
 set_orchestrator_address - Injective Orchestrator address for your validator
 """
-set_exporter_port = "26877" #"9877"
-set_api_url= "http://localhost:26337" #" "
-set_orchestrator_address= "inj16mplq0dsla79dsvg4nfgfeyh8wy7t872thky2e"
+set_exporter_port = "26877"
+set_api_url= "http://localhost:26337"
+set_orchestrator_address= "inj1xxxx"
 
 #log_format = '%(asctime)s - [%(filename)s:%(lineno)d] -  %(funcName)s - %(levelname)s - %(message)s'
 
